@@ -13,8 +13,8 @@ This repository contains PyTorch reimplementations of popular transformer-based 
 ## Installation
 
 ```bash
-git clone https://github.com/eleven-day/transformer-based-on-pytorch.git
-cd transformer-based-on-pytorch
+git clone https://github.com/eleven-day/models-based-on-pytorch.git
+cd models-based-on-pytorch
 pip install -r requirements.txt
 ```
 
