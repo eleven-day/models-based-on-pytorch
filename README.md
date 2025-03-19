@@ -38,23 +38,6 @@ Implementation of the Mistral Mixture of Experts architecture for efficient larg
 ### 6. LLaVA (Large Language and Vision Assistant)
 Implementation of the LLaVA architecture, a large language and vision model that connects vision encoders with language models.
 
-## Usage Examples
-
-Each model has a corresponding example file in the `examples/` directory. Here's a quick example:
-
-```python
-from models.gpt import GPT
-from configs.model_configs import GPTConfig
-
-# Initialize the model
-config = GPTConfig(vocab_size=50257, n_layer=12, n_head=12, n_embd=768)
-model = GPT(config)
-
-# Generate text
-output = model.generate("Once upon a time", max_length=50)
-print(output)
-```
-
 ## Requirements
 
 - Python 3.8+
