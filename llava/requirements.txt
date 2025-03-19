@@ -1,0 +1,8 @@
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+peft>=0.4.0
+pillow>=9.0.0
+tqdm>=4.65.0
+accelerate>=0.20.0
+sentencepiece>=0.1.97

@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from model import Transformer
+from transformer import Transformer
 
 def example_usage():
     # Hyperparameters
